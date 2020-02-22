@@ -8,9 +8,11 @@ import './App.css';
 
 function App() {
     return (
-        <div style={{ margin: "0px 200px 0px 200px" }}>
-            <Header />
-            <Table />
+        <div style={{ height: "100vh", background: "linear-gradient(0deg, rgba(255,151,0,1) 36%, rgba(62,160,160,0) 100%)"}}>
+            <div style={{ margin: "0px 200px 0px 200px" }}>
+                <Header />
+                <Table />
+            </div>
         </div>
     );
 }
